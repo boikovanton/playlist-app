@@ -1,0 +1,25 @@
+# ---- Core ----
+Flask==2.3.3
+Flask-SQLAlchemy==3.1.1
+Flask-WTF==1.2.1
+Flask-DebugToolbar==0.13.1
+
+# ---- Database ----
+SQLAlchemy==2.0.21
+psycopg[binary]==3.1.19   # Postgres driver (modern psycopg3)
+
+# ---- Env + Migrations ----
+python-dotenv==1.0.1
+Flask-Migrate==4.0.5
+
+# ---- Forms / Security ----
+WTForms==3.1.2
+itsdangerous==2.1.2
+Werkzeug==2.3.7
+Jinja2==3.1.2
+MarkupSafe==2.1.5
+
+# ---- Dev / Interactive ----
+ipython==8.15.0
+Pygments==2.16.1
+traitlets==5.9.0
